@@ -1,0 +1,38 @@
+
+/* css for custom cursor */
+#myCursor {
+    position: relative;
+    top: 0px;
+    bottom: 0px;
+    width: 15px;
+    height: 15px;
+    background-color: #dc143c;
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 2147483646; 
+}
+
+
+/* css for loading animation */
+#cursorLoad {
+    position: relative;
+    width: 15px;
+    height: 0px;
+    background-color: #FF6FFF;
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 2147483647;
+}
+
+/* css for the "cage" that keeps the real cursor hidden and stationary */
+#cage {
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
+.activate{
+    visibility: auto;
+    /* position: relative;
+    z-index: 2147483645; */
+}
